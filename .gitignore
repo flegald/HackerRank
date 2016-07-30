@@ -81,6 +81,11 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+bin/
+include/
+lib/
+local/
+share/
 
 # Spyder project settings
 .spyderproject
@@ -88,9 +93,14 @@ ENV/
 # Rope project settings
 .ropeproject
 
+
 share/*
 bin/*
 local
 pip-selfcheck.json
 include/*
+
+
+#misc
+pip-selfcheck.json
 
